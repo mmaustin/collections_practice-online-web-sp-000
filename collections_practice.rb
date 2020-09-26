@@ -54,3 +54,10 @@ def add_s(array)
   end
 end
 add_s(["hand", "feet", "knee", "table"])
+
+def kesha_maker(names)
+  names.collect do |name|
+    name[2] = "$"
+  end
+end
+kesha_maker(["blake", "ashley", "scott"])
