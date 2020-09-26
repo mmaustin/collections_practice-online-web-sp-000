@@ -59,5 +59,6 @@ def kesha_maker(names)
   names.collect do |name|
     name[2] = "$"
   end
+  names
 end
 kesha_maker(["blake", "ashley", "scott"])
